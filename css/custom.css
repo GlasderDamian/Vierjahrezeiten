@@ -5,8 +5,18 @@ body {
 	
 h1, h2, h3, h4, h5, h6 {
 	color: black;
+	 
 	}
-	
+	p::first-letter{
+		font-weight:bold;
+		font-size: 2.8em;
+		color:#800020;
+	}
+
+	p {
+	text-align: left;
+	color:#000080;
+	}
 .feature {
 	background-image: url(../bilder/hg.jpg);
 	background-repeat:repeat-x;
@@ -44,3 +54,5 @@ h1, h2, h3, h4, h5, h6 {
 .small-print {
 	text-align: center;
 	}
+
+	
